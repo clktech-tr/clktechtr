@@ -10,9 +10,9 @@
     }
   ],
   "installCommand": "npm install --legacy-peer-deps && cd client && npm install --legacy-peer-deps",
-  "buildCommand": "npm run build",
+  "buildCommand": "cd client && npm run build",
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://[YOUR-ACTUAL-RENDER-URL]/api/$1" },
+    { "source": "/api/(.*)", "destination": "https://clktech-backend.onrender.com/api/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
