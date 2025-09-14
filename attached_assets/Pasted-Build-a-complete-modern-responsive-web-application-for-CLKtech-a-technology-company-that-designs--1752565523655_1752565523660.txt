@@ -1,0 +1,95 @@
+Build a complete, modern, responsive web application for CLKtech, a technology company that designs and sells robot controller boards and electronic circuit modules.
+
+The website should be built on Node.js + Express (backend) and HTML + Tailwind CSS + JavaScript (frontend) and must be compatible with Replit, allowing the project to be tested locally and later deployed to Vercel.
+
+🔧 Features and Requirements:
+1. Frontend (User Interface):
+HTML, Tailwind CSS, JavaScript (or optionally React)
+
+Clean, modern UI with animations, hover effects, and smooth transitions
+
+Fully responsive (mobile/tablet/desktop)
+
+Top navigation menu with pages: [Home, Products, Coding App, About, Contact]
+
+2. Backend (API & Logic):
+Node.js with Express.js
+
+REST API for product listing: GET /api/products
+
+Admin-only APIs for add/edit/delete products
+
+Store data in local JSON files (products.json, orders.json)
+
+Support form-based checkout for Bank Transfer only (no online payment)
+
+3. Admin Panel (Protected Area):
+Accessible via /admin route
+
+Simple login (password or token-based)
+
+Ability to add, edit, delete products
+
+File upload for product images (use Multer)
+
+Admin UI should use Tailwind CSS and be visually clean
+
+4. “Coding App” Page (Download Center):
+Introduce a block-based coding app developed for CLKtech robot boards
+
+Includes:
+
+Short descriptive paragraph
+
+Embedded YouTube video tutorial
+
+Download buttons for Windows, Mac, Linux (linked to files in /public/downloads/)
+
+5. Product Detail Pages:
+Individual pages for each product
+
+Show name, image, technical description, and price
+
+Button for “Buy via Bank Transfer” with a form
+
+Below the form, provide external purchase links (e.g., [Buy from Etsy], [Buy from N11])
+
+6. Order Handling:
+Order form includes: customer name, email, product, message box
+
+Orders are saved to a orders.json file
+
+(Optionally) build admin order management interface later
+
+7. Site Structure & Deployment:
+All code should be easily runnable on Replit with clear folder structure:
+
+pgsql
+Kopyala
+Düzenle
+/public
+/routes
+/views (if using templates)
+/admin
+products.json
+orders.json
+server.js
+Ready to be downloaded as .zip and deployed to Vercel, Render, or other static + serverless platforms
+
+8. Bonus (Optional Enhancements):
+Dark mode toggle
+
+Image carousel or slider on homepage
+
+Social media icons and links in footer
+
+Google Maps embedded on Contact page
+
+📦 Tech Stack Summary:
+Frontend: HTML, TailwindCSS, JavaScript (or optionally React)
+
+Backend: Node.js + Express
+
+Data: Local JSON files (or MongoDB later)
+
+Deployment: Replit (development), Vercel (live)

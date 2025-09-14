@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": { "tr": "LineX Controller", "en": "LineX Controller" },
+    "slug": "linex-controller",
+    "description": "Advanced line-following robot controller with integrated sensors and motor drivers",
+    "fullDescription": "Advanced line-following robot controller with integrated sensors and motor drivers. Perfect for educational projects and competitive robotics. Includes built-in WiFi connectivity and real-time debugging capabilities.",
+    "price": { "tr": "89.99", "en": "89.99" },
+    "image": "/api/uploads/linex.png",
+    "category": "Controllers",
+    "inStock": true,
+    "specs": "{\"microcontroller\":\"ARM Cortex-M4\",\"flash\":\"256KB\",\"ram\":\"64KB\",\"voltage\":\"3.3V - 5V\",\"digital_io\":\"20 pins\",\"analog_inputs\":\"8 channels\"}",
+    "externalLinks": "{\"Etsy\":\"https://www.etsy.com/listing/linex-controller\",\"N11\":\"https://www.n11.com/product/linex-controller\",\"Trendyol\":\"https://www.trendyol.com/product/linex-controller\"}",
+    "createdAt": "2025-07-16T21:00:50.424Z",
+    "updatedAt": "2025-07-16T21:00:50.424Z"
+  },
+  {
+    "id": 2,
+    "name": { "tr": "MazeX Controller", "en": "MazeX Controller" },
+    "slug": "mazex-controller",
+    "description": "Maze-solving robot platform with advanced navigation algorithms and sensor arrays",
+    "fullDescription": "Maze-solving robot platform with advanced navigation algorithms and sensor arrays. Features intelligent pathfinding, obstacle detection, and autonomous navigation capabilities.",
+    "price": { "tr": "129.99", "en": "129.99" },
+    "image": "/api/uploads/mazex.png",
+    "category": "Controllers",
+    "inStock": true,
+    "specs": "{\"microcontroller\":\"ARM Cortex-M7\",\"flash\":\"512KB\",\"ram\":\"128KB\",\"voltage\":\"3.3V - 5V\",\"digital_io\":\"24 pins\",\"analog_inputs\":\"12 channels\"}",
+    "externalLinks": "{\"Etsy\":\"https://www.etsy.com/listing/mazex-controller\",\"N11\":\"https://www.n11.com/product/mazex-controller\",\"Trendyol\":\"https://www.trendyol.com/product/mazex-controller\"}",
+    "createdAt": "2025-07-16T21:00:50.424Z",
+    "updatedAt": "2025-07-16T21:00:50.424Z"
+  },
+  {
+    "id": 3,
+    "name": { "tr": "VivianX Controller", "en": "VivianX Controller" },
+    "slug": "vivianx-controller",
+    "description": "Professional-grade robotics platform with wireless connectivity and advanced I/O",
+    "fullDescription": "Professional-grade robotics platform with wireless connectivity and advanced I/O. Designed for complex robotics projects with real-time control and monitoring capabilities.",
+    "price": { "tr": "199.99", "en": "199.99" },
+    "image": "/api/uploads/vivianx.png",
+    "category": "Controllers",
+    "inStock": true,
+    "specs": "{\"microcontroller\":\"ARM Cortex-M7\",\"flash\":\"1MB\",\"ram\":\"256KB\",\"voltage\":\"3.3V - 5V\",\"digital_io\":\"32 pins\",\"analog_inputs\":\"16 channels\"}",
+    "externalLinks": "{\"Etsy\":\"https://www.etsy.com/listing/vivianx-controller\",\"N11\":\"https://www.n11.com/product/vivianx-controller\",\"Trendyol\":\"https://www.trendyol.com/product/vivianx-controller\"}",
+    "createdAt": "2025-07-16T21:00:50.424Z",
+    "updatedAt": "2025-07-16T21:00:50.424Z"
+  },
+  {
+    "name": { "tr": "asd", "en": "asd" },
+    "slug": "asd",
+    "description": { "tr": "asd", "en": "asd" },
+    "fullDescription": { "tr": "asd", "en": "asd" },
+    "price": { "tr": "123", "en": "321" },
+    "image": "/api/uploads/1752699685452-690539973.png",
+    "category": "asd",
+    "inStock": true,
+    "specs": "{\"microcontroller\":\"\",\"flash\":\"\",\"ram\":\"\",\"voltage\":\"\",\"digital_io\":\"\",\"analog_inputs\":\"\"}",
+    "externalLinks": "{\"Etsy\":\"\",\"N11\":\"\",\"Trendyol\":\"\"}",
+    "id": 4,
+    "createdAt": "2025-07-16T21:01:25.470Z",
+    "updatedAt": "2025-07-16T21:01:25.470Z"
+  }
+]

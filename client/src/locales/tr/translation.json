@@ -1,0 +1,243 @@
+{
+  "navbar": {
+    "home": "Anasayfa",
+    "products": "Ürünler",
+    "codingApp": "Kodlama Uygulaması",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "admin": "Yönetici"
+  },
+  "footer": {
+    "products": "Ürünler",
+    "support": "Destek",
+    "company": "Şirket",
+    "documentation": "Dokümantasyon",
+    "tutorials": "Eğitimler",
+    "community": "Topluluk",
+    "aboutUs": "Hakkımızda",
+    "contact": "İletişim",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Kullanım Şartları",
+    "allProducts": "Tüm Ürünler",
+    "copyright": "Tüm hakları saklıdır.",
+    "companyInfo": "Eğitim ve profesyonel gelişim için gelişmiş robotik çözümler."
+  },
+  "home": {
+    "slider": [
+      {
+        "title": "Gelişmiş Robot Kontrol Kartları",
+        "subtitle": "Geleceğin Robotik Projeleriniz İçin",
+        "description": "CLKtech'in profesyonel seviye kontrol kartları ve sezgisel blok tabanlı kodlama ortamı ile robotik projenizi tasarlayın, inşa edin ve programlayın.",
+        "features": ["ARM Cortex-M İşlemci", "WiFi Bağlantısı", "32 Giriş/Çıkış"]
+      },
+      {
+        "title": "Elektronik Modüller & Sensörler",
+        "subtitle": "Her Proje İçin Doğru Çözüm",
+        "description": "Profesyonel kalitede elektronik modüller ve sensörler ile robotik projelerinize güç katın. Endüstri standardında kalite ve performans.",
+        "features": ["Hassas Sensörler", "Güçlü Motor Sürücüler", "Uzun Ömürlü Tasarım"]
+      },
+      {
+        "title": "Blok Tabanlı Kodlama",
+        "subtitle": "Programlama Artık Çok Kolay",
+        "description": "Görsel blok tabanlı kodlama ortamı ile programlama öğrenin ve robotunuzu hayata geçirin. Hem yeni başlayanlar hem de uzmanlar için ideal.",
+        "features": ["Görsel Programlama", "Gerçek Zamanlı Test", "Proje Şablonları"]
+      }
+    ],
+    "discoverProducts": "Ürünleri Keşfedin",
+    "codingApp": "Kodlama Uygulaması",
+    "whyChoose": "Neden CLKtech'i Tercih Etmelisiniz?",
+    "whyChooseDesc": "Yaratıcılar, eğitimciler ve mühendisler için tasarlanmış profesyonel seviye robotik geliştirme araçları",
+    "featureCards": {
+      "1": {"title": "Gelişmiş Kontrol Kartları", "desc": "Karmaşık robotik projeler için geniş giriş/çıkış kabiliyetleri olan yüksek performanslı mikrokontrolörler"},
+      "2": {"title": "Blok Tabanlı Kodlama", "desc": "Robotunuz için optimize edilmiş kod üreten sezgisel görsel programlama ortamı"},
+      "3": {"title": "Tümleşik Platform", "desc": "Donanım, yazılım ve eğitim kaynakları tek pakette."}
+    },
+    "productsTitle": "Ürünlerimiz",
+    "productsDesc": "Robot kontrol kartları ve elektronik modüller ürün yelpazemizi keşfedin",
+    "viewAllProducts": "Tüm Ürünleri Görüntüle",
+    "codingAppTitle": "CLK Block Code",
+    "codingAppDesc": "Sezgisel blok tabanlı kodlama ortamımız robot programlamayı herkes için erişilebilir hale getirir.",
+    "keyFeatures": "Temel Özellikler:",
+    "keyFeaturesList": [
+      "Görsel blok tabanlı programlama",
+      "Gerçek zamanlı kod üretimi",
+      "Donanım simülasyonu",
+      "Çoklu platform desteği"
+    ],
+    "heroTitle1": "Eğitsel ",
+    "heroTitle2": "Robotik",
+    "heroTitle3": "Programlama",
+    "heroTitle4": "Platformları",
+    "heroDesc": "Görsel blok programlama destekli profesyonel robotik kontrol kartları. Eğitim, yarışma ve IoT projeleri için mükemmel.",
+    "getQuote": "Teklif Al",
+    "codingAppDescShort": "Gelişmiş robotik platformu aksiyonda",
+    "visualBlockProgrammingTitle": "Görsel Blok Programlama",
+    "visualBlockProgrammingDesc": "CLK Block Code arayüzümüz ile robotik programlama herkes için erişilebilir. Karmaşık sözdizimi yok – sadece sürükle, bırak ve oluştur!",
+    "block1Title": "Robot Seçimi",
+    "block1Desc": "MazeX, LineX ve VivianX platformlarından birini tek tıkla seçin.",
+    "block2Title": "Görsel Programlama",
+    "block2Desc": "Kod bloklarını sürükleyip bırakarak karmaşık robot davranışları oluşturun.",
+    "block3Title": "Gerçek Zamanlı Test",
+    "block3Desc": "Kodunuzu anında test edin ve sonuçları gerçek zamanlı konsolda görün."
+  },
+  "about": {
+    "title": "CLKtech Hakkında",
+    "subtitle": "Robotik eğitiminde ve profesyonel gelişim araçlarında yeniliğin öncüsü",
+    "mission": {
+      "title": "Misyonumuz",
+      "text1": "CLKtech olarak, robotik eğitimin herkes için erişilebilir olması gerektiğine inanıyoruz. Misyonumuz; öğrenciler, eğitimciler ve profesyonellerin robotik vizyonlarını hayata geçirmelerini sağlayan, yüksek kaliteli ve uygun fiyatlı robot kontrol kartları ile sezgisel programlama araçları sunmaktır.",
+      "text2": "2020 yılında kurulan firmamız, eğitimde robotik teknolojilerinin öncüsü olarak, karmaşık programlama ile yaratıcı robotik projeler arasındaki boşluğu kapatan yenilikçi çözümler geliştirmektedir.",
+      "founded": "Kuruluş",
+      "productsSold": "Satılan Ürün",
+      "countries": "Ülke",
+      "teamMembers": "Takım Üyesi"
+    },
+    "team": {
+      "title": "CLKtech Ekibi",
+      "subtitle": "Robotik eğitimi geliştirmek için çalışan uzman ekip"
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "innovation": {
+        "title": "Yenilikçilik",
+        "text": "Robotik eğitiminde mümkün olanın sınırlarını sürekli zorluyor, yenilikçi araçlar ve teknolojiler geliştiriyoruz."
+      },
+      "accessibility": {
+        "title": "Erişilebilirlik",
+        "text": "Robotik herkes için erişilebilir olmalı; teknik geçmişi veya deneyimi ne olursa olsun."
+      },
+      "quality": {
+        "title": "Kalite",
+        "text": "Oluşturduğumuz her ürün, en yüksek kalite ve güvenilirlik standartlarını karşılamak için titiz testlerden geçer."
+      }
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "text1": "CLKtech, geleneksel robotik eğitimin çoğu öğrenci için çok karmaşık ve erişilemez olduğu basit bir gözlemden doğdu. Kurucularımız, daha sezgisel bir robotik öğretim yaklaşımına ihtiyaç olduğunu fark etti.",
+      "text2": "Tutkulu bir geliştirici ekibiyle yola çıkarak, robotik eğitimi demokratikleştirecek donanım ve yazılım çözümleri üretmeye başladık. İlk ürünümüz LineX kontrol kartı, güçlü işlevselliği kullanıcı dostu tasarımla birleştirerek eğitim ortamları için özel olarak tasarlandı.",
+      "text3": "Bugün CLKtech ürünleri, dünyanın dört bir yanındaki okullarda, üniversitelerde ve maker alanlarında kullanılıyor. Blok tabanlı programlama ortamımız, binlerce öğrenci ve profesyonelin ilk robotik projelerini hayata geçirmesine yardımcı oldu ve biz daha yeni başlıyoruz.",
+      "text4": "Geleceğe bakarken, orijinal misyonumuza bağlı kalmaya devam ediyoruz: Her yaştan ve geçmişten öğrenen için robotik eğitimini erişilebilir, ilgi çekici ve etkili kılmak."
+    },
+    "cta": {
+      "title": "Robotik Yolculuğuna Hazır mısın?",
+      "subtitle": "Robotik projelerinde CLKtech'i tercih eden binlerce eğitimci ve öğrenciye katılın.",
+      "exploreProducts": "Ürünleri Keşfet",
+      "getInTouch": "İletişime Geç"
+    }
+  },
+  "codingApp": {
+    "title": "CLK Block Code",
+    "subtitle": "Sezgisel CLK Block Code ortamımız, robot programlamayı herkes için erişilebilir kılar. Yeni başlayanlardan ileri düzey kullanıcılara kadar, sürükle-bırak ile karmaşık davranışlar oluşturun.",
+    "visualProgrammingTitle": "Görsel Programlama Çok Kolay",
+    "visualProgrammingDesc": "CLK Block Code, karmaşık programlamayı sezgisel bir görsel deneyime dönüştürür. İster robotik öğrenen bir öğrenci, ister gelişmiş sistemler geliştiren bir profesyonel olun, blok tabanlı arayüzümüz sayesinde sözdizimine değil mantığa odaklanırsınız.",
+    "keyFeaturesTitle": "Temel Özellikler",
+    "keyFeatures": [
+      "Görsel blok tabanlı programlama",
+      "Gerçek zamanlı kod üretimi",
+      "Donanım simülasyonu",
+      "Çoklu platform desteği",
+      "Dahili hata ayıklama araçları",
+      "Hazır blok kütüphanesi"
+    ],
+    "downloadTitle": "CLK Block Code'u İndir",
+    "download": {
+      "windows": "Windows",
+      "mac": "macOS",
+      "linux": "Linux"
+    },
+    "downloadBtn": "İndir",
+    "systemRequirements": "Sistem Gereksinimleri: Windows 10+",
+    "screenshotAlt": "CLK Block Code Arayüzü",
+    "tutorialTitle": "Başlangıç Eğitimi",
+    "tutorialDesc": "CLK Block Code ile ilk robotunuzu programlamayı öğrenin",
+    "tutorialVideoTitle": "CLK Block Code Eğitimi",
+    "steps": [
+      { "title": "1. İndir & Kur", "desc": "İşletim sisteminize uygun sürümü indirin ve kurulum rehberini takip edin." },
+      { "title": "2. Robotunu Bağla", "desc": "CLKtech kontrol kartınızı USB ile bilgisayarınıza bağlayın ve cihazınızı seçin." },
+      { "title": "3. Programlamaya Başla", "desc": "Blokları sürükleyip bırakarak programınızı oluşturun, ardından robotunuza yükleyin ve çalışmasını izleyin!" }
+    ],
+    "onlyWindowsAvailable": "Şimdilik sadece Windows için uygulama mevcut."
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Ürünlerimiz hakkında sorularınız mı var veya teknik desteğe mi ihtiyacınız var? Size yardımcı olmaktan mutluluk duyarız!",
+    "form": {
+      "title": "Bize mesaj gönderin",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "email": "E-posta",
+      "subject": "Konu",
+      "subjectPlaceholder": "Bir konu seçin",
+      "subjectOptions": {
+        "technical": "Teknik Destek",
+        "sales": "Satış Sorgusu",
+        "general": "Genel Soru",
+        "partnership": "Ortaklık"
+      },
+      "message": "Mesaj",
+      "captchaLabel": "Güvenlik Kontrolü: {{question}} kaçtır?",
+      "captchaPlaceholder": "Cevabınızı girin",
+      "newQuestion": "Yeni Soru",
+      "send": "Mesajı Gönder",
+      "sending": "Gönderiliyor..."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "address": "Adres",
+      "businessHours": "Çalışma Saatleri",
+      "businessHoursWeek": "Pazartesi - Cuma: 09:00 - 18:00",
+      "businessHoursSat": "Cumartesi: 10:00 - 16:00",
+      "mapCity": "İstanbul, Türkiye",
+      "mapDesc": "Google Haritalar Entegrasyonu"
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Yönetici Girişi",
+      "username": "E-posta",
+      "password": "Şifre",
+      "login": "Giriş Yap",
+      "loggingIn": "Giriş yapılıyor...",
+      "defaultCredentials": ""
+    },
+    "panel": {
+      "title": "Yönetici Paneli",
+      "subtitle": "Ürünlerinizi, siparişlerinizi ve site içeriğinizi yönetin",
+      "logout": "Çıkış Yap"
+    }
+  },
+  "productDetail": {
+    "loading": "Ürün detayları yükleniyor...",
+    "notFound": {
+      "title": "404 Sayfa Bulunamadı",
+      "desc": "Sayfayı router'a eklemeyi unuttunuz mu?"
+    },
+    "backToProducts": "Ürünlere Dön",
+    "inStock": "Stokta Var",
+    "outOfStock": "Stokta Yok",
+    "techSpecs": "Teknik Özellikler",
+    "details": "Ürün Detayları",
+    "buyBankTransfer": "Banka Havalesi ile Satın Al",
+    "alsoAvailable": "Ayrıca şuradan da temin edilebilir:",
+    "buyFrom": "{{platform}} üzerinden satın al",
+    "contactUs": "İletişim"
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Robot kontrol kartları ve elektronik modüllerden oluşan kapsamlı ürün yelpazemizi keşfedin",
+    "loading": "Ürünler yükleniyor...",
+    "searchPlaceholder": "Ürünlerde ara...",
+    "allCategory": "Tümü",
+    "noProducts": "Ürün bulunamadı",
+    "noProductsDesc": "Arama veya filtre kriterlerinizi değiştirin",
+    "showing": "{{count}} / {{total}} ürün gösteriliyor",
+    "inCategory": "({{category}} kategorisinde)"
+  },
+  "productCard": {
+    "inStock": "Stokta Var",
+    "outOfStock": "Stokta Yok",
+    "viewDetails": "Detayları Gör"
+  }
+}

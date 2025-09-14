@@ -1,0 +1,25 @@
+﻿
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : [{"id":10,"name":"{\"tr\":\"linex\",\"en\":\"linex\"}","image":"/api/uploads/1752856148
+                    452-100751718.png","description":"{\"tr\":\"kısa açıklama\",\"en\":\"Short Description\
+                    "}","createdAt":"2025-07-1...
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Keep-Alive: timeout=5
+                    Content-Length: 571
+                    Content-Type: application/json; charset=utf-8
+                    Date: Fri, 18 Jul 2025 18:08:03 GMT
+                    ETag: W/"23b-WEkXo700BPIvl5o78P...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Keep-Alive, timeout=5], [Content-Length, 571], [Content-Typ
+                    e, application/json; charset=utf-8]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : System.__ComObject
+RawContentLength  : 571
+
+
+

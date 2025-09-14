@@ -1,0 +1,230 @@
+{
+  "navbar": {
+    "home": "Home",
+    "products": "Products",
+    "codingApp": "Coding App",
+    "about": "About",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "footer": {
+    "products": "Products",
+    "support": "Support",
+    "company": "Company",
+    "documentation": "Documentation",
+    "tutorials": "Tutorials",
+    "community": "Community",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "allProducts": "All Products",
+    "copyright": "All rights reserved.",
+    "companyInfo": "Advanced robotics solutions for education and professional development."
+  },
+  "home": {
+    "slider": [
+      {
+        "title": "Advanced Robot Controller Boards",
+        "subtitle": "For Your Future Robotics Projects",
+        "description": "Design, build, and program your robotics project with CLKtech's professional-grade controller boards and intuitive block-based coding environment.",
+        "features": ["ARM Cortex-M Processor", "WiFi Connectivity", "32 I/O Pins"]
+      },
+      {
+        "title": "Electronic Modules & Sensors",
+        "subtitle": "The Right Solution for Every Project",
+        "description": "Empower your robotics projects with professional-quality electronic modules and sensors. Industry-standard quality and performance.",
+        "features": ["Precision Sensors", "Powerful Motor Drivers", "Long-lasting Design"]
+      },
+      {
+        "title": "Block-Based Coding",
+        "subtitle": "Programming Made Easy",
+        "description": "Learn programming and bring your robot to life with a visual block-based coding environment. Ideal for both beginners and experts.",
+        "features": ["Visual Programming", "Real-Time Testing", "Project Templates"]
+      }
+    ],
+    "discoverProducts": "Discover Products",
+    "codingApp": "Coding App",
+    "whyChoose": "Why Choose CLKtech?",
+    "whyChooseDesc": "Professional-grade robotics development tools designed for creators, educators, and engineers",
+    "featureCards": [
+      {"title": "Advanced Controller Boards", "desc": "High-performance microcontrollers with extensive I/O capabilities for complex robotics projects"},
+      {"title": "Block-Based Coding", "desc": "Intuitive visual programming environment that generates optimized code for your robot"},
+      {"title": "Professional Quality", "desc": "Industrial-grade components with comprehensive testing and documentation"}
+    ],
+    "productsTitle": "Our Products",
+    "productsDesc": "Explore our comprehensive range of robot controller boards and electronic modules",
+    "viewAllProducts": "View All Products",
+    "codingAppTitle": "CLK Block Code",
+    "codingAppDesc": "Our intuitive block-based coding environment makes robot programming accessible to everyone.",
+    "keyFeatures": "Key Features:",
+    "keyFeaturesList": [
+      "Visual block-based programming",
+      "Real-time code generation",
+      "Hardware simulation",
+      "Multi-platform support"
+    ]
+  },
+  "about": {
+    "title": "About CLKtech",
+    "subtitle": "Leading innovation in robotics education and professional development tools",
+    "mission": {
+      "title": "Our Mission",
+      "text1": "At CLKtech, we believe that robotics education should be accessible to everyone. Our mission is to provide high-quality, affordable robot controller boards and intuitive programming tools that enable students, educators, and professionals to bring their robotic visions to life.",
+      "text2": "Founded in 2020, we've been at the forefront of educational robotics technology, developing innovative solutions that bridge the gap between complex programming and creative robotics projects.",
+      "founded": "Founded",
+      "productsSold": "Products Sold",
+      "countries": "Countries",
+      "teamMembers": "Team Members"
+    },
+    "team": {
+      "title": "CLKtech Team",
+      "subtitle": "Dedicated professionals working to advance robotics education"
+    },
+    "values": {
+      "title": "Our Values",
+      "innovation": {
+        "title": "Innovation",
+        "text": "We constantly push the boundaries of what's possible in robotics education, developing cutting-edge tools and technologies."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "text": "We believe robotics should be accessible to everyone, regardless of their technical background or experience level."
+      },
+      "quality": {
+        "title": "Quality",
+        "text": "Every product we create undergoes rigorous testing to ensure it meets the highest standards of quality and reliability."
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "text1": "CLKtech was born from a simple observation: traditional robotics education was too complex and inaccessible for most learners. Our founders, experienced engineers and educators, recognized the need for a more intuitive approach to teaching robotics concepts.",
+      "text2": "Starting with a small team of passionate developers, we set out to create hardware and software solutions that would democratize robotics education. Our first product, the LineX controller, was designed specifically for educational environments, combining powerful functionality with user-friendly design.",
+      "text3": "Today, CLKtech products are used in schools, universities, and makerspaces around the world. Our block-based programming environment has helped thousands of students and professionals create their first robotic projects, and we're just getting started.",
+      "text4": "As we look to the future, we remain committed to our original mission: making robotics education accessible, engaging, and effective for learners of all ages and backgrounds."
+    },
+    "cta": {
+      "title": "Ready to Start Your Robotics Journey?",
+      "subtitle": "Join thousands of educators and students who have chosen CLKtech for their robotics projects.",
+      "exploreProducts": "Explore Products",
+      "getInTouch": "Get in Touch"
+    }
+  },
+  "codingApp": {
+    "title": "CLK Block Code",
+    "subtitle": "Our intuitive block-based coding environment makes programming robots accessible to everyone. From beginners to advanced users, create complex behaviors with simple drag-and-drop operations.",
+    "visualProgrammingTitle": "Visual Programming Made Simple",
+    "visualProgrammingDesc": "CLK Block Code transforms complex programming into an intuitive visual experience. Whether you're a student learning robotics or a professional developing advanced systems, our block-based interface helps you focus on logic rather than syntax.",
+    "keyFeaturesTitle": "Key Features",
+    "keyFeatures": [
+      "Visual block-based programming",
+      "Real-time code generation",
+      "Hardware simulation",
+      "Multi-platform support",
+      "Built-in debugging tools",
+      "Library of pre-built blocks"
+    ],
+    "downloadTitle": "Download CLK Block Code",
+    "download": {
+      "windows": "Windows",
+      "mac": "macOS",
+      "linux": "Linux"
+    },
+    "downloadBtn": "Download",
+    "systemRequirements": "System Requirements: Windows 10+",
+    "screenshotAlt": "CLK Block Code Interface",
+    "tutorialTitle": "Getting Started Tutorial",
+    "tutorialDesc": "Learn how to program your first robot with CLK Block Code",
+    "tutorialVideoTitle": "CLK Block Code Tutorial",
+    "steps": [
+      { "title": "1. Download & Install", "desc": "Download the appropriate version for your operating system and follow the installation guide." },
+      { "title": "2. Connect Your Robot", "desc": "Connect your CLKtech controller board to your computer via USB and select your device." },
+      { "title": "3. Start Programming", "desc": "Drag and drop blocks to create your program, then upload it to your robot and watch it come to life!" }
+    ],
+    "onlyWindowsAvailable": "Currently only available for Windows."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions about our products or need technical support? We're here to help!",
+    "form": {
+      "title": "Send us a message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "subjectOptions": {
+        "technical": "Technical Support",
+        "sales": "Sales Inquiry",
+        "general": "General Question",
+        "partnership": "Partnership"
+      },
+      "message": "Message",
+      "captchaLabel": "Security Check: What is {{question}}?",
+      "captchaPlaceholder": "Enter your answer",
+      "newQuestion": "New Question",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "businessHours": "Business Hours",
+      "businessHoursWeek": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "businessHoursSat": "Saturday: 10:00 AM - 4:00 PM",
+      "mapCity": "Istanbul, Turkey",
+      "mapDesc": "Google Maps Integration"
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Login",
+      "username": "Email",
+      "password": "Password",
+      "login": "Login",
+      "loggingIn": "Logging in...",
+      "defaultCredentials": ""
+    },
+    "panel": {
+      "title": "Admin Panel",
+      "subtitle": "Manage your products, orders, and website content",
+      "logout": "Logout"
+    }
+  },
+  "productDetail": {
+    "loading": "Loading product details...",
+    "notFoundTitle": "Product Not Found",
+    "notFoundDesc": "The product you're looking for doesn't exist or has been removed.",
+    "backToProducts": "Back to Products",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "techSpecs": "Technical Specifications",
+    "details": "Product Details",
+    "buyBankTransfer": "Buy via Bank Transfer",
+    "alsoAvailable": "Also available from:",
+    "buyFrom": "Buy from {{platform}}",
+    "contactUs": "Contact Us"
+  },
+  "notFound": {
+    "title": "404 Page Not Found",
+    "desc": "Did you forget to add the page to the router?"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Explore our comprehensive range of robot controller boards and electronic modules",
+    "loading": "Loading products...",
+    "searchPlaceholder": "Search products...",
+    "allCategory": "All",
+    "noProducts": "No products found",
+    "noProductsDesc": "Try adjusting your search or filter criteria",
+    "showing": "Showing {{count}} of {{total}} products",
+    "inCategory": "in {{category}}"
+  },
+  "productCard": {
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "viewDetails": "View Details"
+  }
+}

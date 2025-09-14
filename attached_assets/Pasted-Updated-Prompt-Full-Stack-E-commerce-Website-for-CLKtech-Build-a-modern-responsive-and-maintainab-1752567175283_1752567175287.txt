@@ -1,0 +1,75 @@
+Updated Prompt: Full-Stack E-commerce Website for CLKtech
+Build a modern, responsive, and maintainable full-stack e-commerce website for CLKtech, a robotics and electronics company.
+The site will run on Replit for development, and be deployable to Vercel or other cloud platforms.
+
+The initial version should include the following features:
+
+🌐 Multi-Page Website Structure:
+Pages: Home, Products, Product Details, Coding App, About, Contact
+
+Clean, animated UI with Tailwind CSS
+
+Fully responsive and mobile-friendly
+
+🛒 Product Catalog:
+Products stored in products.json
+
+Each product has: ID, name, price, description, external purchase links, and an image
+
+Detail pages accessible via /products/:slug or /product/:id for SEO and routing
+
+Simple keyword-based product search bar (search by name)
+
+🔐 Admin Panel:
+Protected login (username/password)
+
+Product management (add/edit/delete)
+
+File upload support (image uploads via Multer, saved in /public/uploads)
+
+Order viewer for reviewing submitted orders
+
+📥 Coding App Download Page:
+Description of the block-based coding app for CLKtech boards
+
+Embedded YouTube video tutorial (or optionally local video player)
+
+Download buttons for Windows, Mac, Linux apps from /public/downloads/
+
+File type validation: only allow .exe, .zip, .dmg, etc.
+
+🧾 Order System (Bank Transfer Only):
+Each product has a “Bank Transfer Purchase” button with order form
+
+Order form includes: name, email, product (auto-filled), message
+
+Orders saved to orders.json
+
+Each order has:
+
+A timestamp (createdAt)
+
+A status field (pending, approved, rejected)
+
+📞 Contact Page:
+Contact form with name, email, message
+
+Include basic bot protection (e.g., math CAPTCHA)
+
+Static company info and optional Google Maps embed
+
+🔗 External Store Integration:
+Add “Buy from…” links under each product (e.g. Etsy, N11, Trendyol)
+
+🔄 Later (Optional / Future Phases):
+Migrate product & order data to MongoDB for scalability
+
+Add real-time order notification using Socket.io or polling
+
+Implement advanced filtering (by category, price range)
+
+Integrate online payment gateways (Stripe, iyzico, etc.)
+
+Add customer login & order history system
+
+Add language toggle for multi-language support (e.g., Turkish/English)

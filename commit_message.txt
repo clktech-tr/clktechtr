@@ -1,0 +1,3 @@
+fix: Sunucu derleme yapılandırması düzeltildi
+
+`tsconfig-backend.json` dosyasındaki `outDir` ayarı `./dist` olarak güncellendi. Bu değişiklik, `server` dizininden çalıştırıldığında derlenmiş dosyaların doğru bir şekilde `server/dist` dizinine yerleştirilmesini sağlar. Ayrıca, `server/package.json` dosyasındaki `build` betiği orijinal haline döndürüldü. Bu düzeltmeler, sunucu başlangıcındaki `MODULE_NOT_FOUND` hatasını gidermeyi amaçlamaktadır.

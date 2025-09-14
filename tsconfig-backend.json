@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["./shared/*"]
+    },
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "sourceMap": true,
+    "lib": ["es2020"],
+    "noEmit": false,
+    "emitDeclarationOnly": false
+  },
+  "include": ["server/**/*.ts", "shared/**/*.ts", "types/**/*.ts", "vite.config.ts"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "client", "**/*.d.ts", "**/*.js"]
+}
