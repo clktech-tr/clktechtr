@@ -12,6 +12,7 @@
   "installCommand": "npm install --legacy-peer-deps",
   "routes": [
     { "src": "/api/(.*)", "dest": "https://clktech-backend.onrender.com/api/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*\\..*)", "dest": "/$1" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
