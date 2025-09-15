@@ -7,7 +7,7 @@ import { setupVite, serveStatic, log } from "./vite.js";
 // CORS için gerekli middleware
 const cors = (req: Request, res: Response, next: NextFunction) => {
   // Vercel'deki frontend URL'i
-  const allowedOrigins = ['https://clktechtr.vercel.app', 'https://clktech.vercel.app', 'http://localhost:5000', 'http://localhost:3000'];
+  const allowedOrigins = ['https://clktechtr-client.vercel.app', 'https://clktechtr.vercel.app', 'https://clktech.vercel.app', 'http://localhost:5000', 'http://localhost:3000'];
   const origin = req.headers.origin;
   
   if (origin && allowedOrigins.includes(origin)) {
