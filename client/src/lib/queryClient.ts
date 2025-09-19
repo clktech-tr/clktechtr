@@ -7,6 +7,18 @@ async function throwIfResNotOk(res: Response) {
   }
 }
 
+function getBaseUrl() {
+  const b = import.meta.env.VITE_API_URL;
+  if (!b || b === "undefined" || b === undefined) return ""; // Fallback to same-origin; Vercel will proxy /api/*
+  return b.endsWith("/") ? b.slice(0, -1) : b;
+}
+
+function buildFullUrl(baseUrl: string, url: string) {
+  if (url.startsWith("http")) return url;
+  const path = url.startsWith("/") ? url : `/${url}`;
+  return `${baseUrl}${path}`;
+}
+
 export async function apiRequest(
   method: string,
   url: string,
@@ -17,8 +29,8 @@ export async function apiRequest(
   if (token) {
     headers["Authorization"] = `Bearer ${token}`;
   }
-  const baseUrl = import.meta.env.VITE_API_URL;
-  const fullUrl = url.startsWith("http") ? url : `${baseUrl}${url}`;
+  const baseUrl = getBaseUrl();
+  const fullUrl = buildFullUrl(baseUrl, url);
   const res = await fetch(fullUrl, {
     method,
     headers,
@@ -36,9 +48,9 @@ export const getQueryFn: <T>(options: {
 }) => QueryFunction<T> =
   ({ on401: unauthorizedBehavior }) =>
   async ({ queryKey }) => {
-  const baseUrl = import.meta.env.VITE_API_URL;
+  const baseUrl = getBaseUrl();
   const url = queryKey.join("/") as string;
-  const fullUrl = url.startsWith("http") ? url : `${baseUrl}${url}`;
+  const fullUrl = buildFullUrl(baseUrl, url);
   const res = await fetch(fullUrl, {
       credentials: "include",
     });

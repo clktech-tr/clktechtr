@@ -8,8 +8,10 @@ export function cn(...inputs: ClassValue[]) {
 // Frontend hata ve network hatalarını backend'e loglamak için fonksiyon
 export async function logClientError(error: any) {
   try {
-    const baseUrl = import.meta.env.VITE_API_URL;
-    await fetch(`${baseUrl}/api/log-client-error`, {
+    const raw = import.meta.env.VITE_API_URL as string | undefined;
+    const base = typeof raw === 'string' && raw.trim() && raw.trim() !== 'undefined' ? raw.trim() : '';
+    const url = base ? `${base}/api/log-client-error` : '/api/log-client-error';
+    await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(
