@@ -12,14 +12,13 @@ const cors = (req: Request, res: Response, next: NextFunction) => {
   
   if (origin && allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
-  } else {
-    // Tüm originlere izin ver (geliştirme için, production'da daha kısıtlayıcı olabilir)
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
   }
   
+  // '*' ile credentials birlikte kullanılamaz; vary ekleyelim ve metot/başlıkları her koşulda ayarlayalım
+  res.setHeader('Vary', 'Origin');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-  res.setHeader('Access-Control-Allow-Credentials', 'true');
   
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
